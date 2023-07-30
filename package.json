@@ -1,0 +1,16 @@
+{
+    "dependencies": {
+        "edit-json-file": "^1.7.0",
+        "https-proxy-agent": "^5.0.0",
+        "node-fetch": "^2.6.7"
+    },
+    "name": "avg_daily_sells",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index"
+    },
+    "author": "Arachnid",
+    "license": "ISC",
+    "description": ""
+}
