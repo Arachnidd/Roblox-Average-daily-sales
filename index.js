@@ -28,7 +28,7 @@ async function fetchData() {
                     }
                 }
                 let file = editJsonFile(`${__dirname}/daily.json`);
-                file.set(`${item}`, `${thirtyDayVol/30}`);
+                file.set(`${item}`, `${Math.round((thirtyDayVol/30) * 100.00) / 100.00}`);
                 file.save();
                 file = editJsonFile(`${__dirname}/daily.json`, {
                     autosave: true
