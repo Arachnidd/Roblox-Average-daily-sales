@@ -1,3 +1,6 @@
 {
-    "proxies": ["proxy1", "proxy2"]
+    "proxies": {
+        "useproxies": false,
+        "proxies": ["proxy1","proxy2"]
+    }
 }
