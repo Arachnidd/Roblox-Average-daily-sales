@@ -1,5 +1,5 @@
 # Roblox-Average-daily-sales
-This is for users who are wanting 30d volume sales with a script. The script uses the roblox resales data point and calculates the 30 days volume. It writes the data in a json and goes through every item on roblox catalog. It also finds the average daily sells by dividing the 30 day volume by 30 to get the daily sells.
+This is for users who are wanting 30d volume sales with a script. The script uses the sales api data point and calculates the 30 days volume. It writes the data in a json and goes through every item on the catalog. It also finds the average daily sells by dividing the 30 day volume by 30 to get the daily sells.
 
 
 Setup:
